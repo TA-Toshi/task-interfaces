@@ -7,7 +7,7 @@ export interface IPersonData {
 /*
 Найдите и исправьте ошибку в данных, возвращаемых функцией getPerson.
  */
-export function getPerson(person: IPersonData): IPersonData {
+export function getPerson(): IPersonData {
     return {
         name: 'Petr',
         secondName: 'Smith',
